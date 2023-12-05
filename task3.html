@@ -18,6 +18,15 @@
         font-size: 100%;
         font-family: 'Philosopher', sans-serif;
       }
+      header {
+        padding: 5px;
+        background-color: red;
+      }
+      header marquee {
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+      }
       nav {
         display: flex;
         align-items: center;
@@ -33,7 +42,15 @@
         cursor: pointer;
         background-color: #95ffc5;
       }
-
+      .usms-logo {
+        height: 70px;
+        margin: 5px 30px 5px 30px;
+        transition: 0.2s ease-in-out;
+      }
+      .usms-logo:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+      }
       a{
         text-decoration: none;
         color: #000;
@@ -44,10 +61,6 @@
         color: #fff;
         font-weight: bold;
         font-size: 25px;
-      }
-      .usms-logo {
-        height: 70px;
-        margin: 5px 30px 5px 30px;
       }
       body {
         background-color: #19d66e;
@@ -158,12 +171,17 @@
     </style>
   </head>
   <body>
+    <header>
+      <marquee>University of Sufism & Modern Sciences, Bhitshah</marquee>
+    </header>
     <nav>
-      <img
+      <a href="https://usms.edu.pk/" target="_blank">
+        <img
         src="https://usms.edu.pk/images/logo1.png"
         alt="usms logo"
         class="usms-logo"
-      />
+        />
+      </a>
       <div class="menue">
         <a class="nav-item" href="#home">Home</a>
         <a class="nav-item" href="#timeTable">Time table</a>
