@@ -62,12 +62,8 @@ main {
 }
 
 .card:hover {
-  /* border: 1px solid hsla(0, 2%, 18%, 0.322); */
+  border: 1px solid hsla(0, 2%, 18%, 0.322);
   cursor: pointer;
-}
-
-.card img {
-  width: 380px;
 }
 
 .heading {
@@ -97,11 +93,6 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
     justify-items: center;
-  }
-
-  .card,
-  .card img {
-    width: 100%;
   }
 
   .card {

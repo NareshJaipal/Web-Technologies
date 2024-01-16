@@ -1,0 +1,42 @@
+div, span {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.block {
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    margin: 100px;
+    padding: 30px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #f0f;
+}
+
+.none{
+    display: none;
+    display: inline;
+    visibility: hidden;
+    margin: 10px;
+}

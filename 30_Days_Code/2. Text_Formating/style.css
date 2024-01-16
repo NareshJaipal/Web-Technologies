@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+}
+
+nav{
+    margin: 0px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+/* Text Colors  */
+p.blue{
+    color: blue;
+}
+
+p.red{
+    color: #f00;
+}
+
+p.white{
+    color: rgb(255, 255, 255);
+}
+
+/* Text Alignment */
+p.left { text-align: left; }
+p.right { text-align: right; }
+p.center { text-align: center; }
+p.justify { text-align: justify; }
+
+/* Text Decoration  */
+.underline{
+    color: #777;
+    text-decoration: underline;
+}
+
+.strike{
+    color: #f00;
+    text-decoration: line-through;
+    text-decoration-color: #00f;
+    text-decoration-style: dashed;
+}
+
+.overline{
+    color: #2b2b2b;
+    text-decoration: overline;
+}
+
+.transform{
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+.indent{
+    text-indent: 100px;
+    text-align: justify;
+}
+
+.spacing{
+    letter-spacing: 5px;
+}
+
+.height{
+    line-height: 2;
+    line-height: 300%;
+    line-height: 30px;
+}
+
+.input-field{
+    width: 95%;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.left-to-right{
+    direction: ltr;
+}
+
+.right-to-left{
+    direction: rtl;
+}
+
+.word-spacing{
+    word-spacing: 50px;
+}
