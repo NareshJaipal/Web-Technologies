@@ -8,7 +8,7 @@
     background-color: #222831;
     color: #00ADB5;
     max-width: 2048px;
-    margin: 50px 150px;
+    margin: 50px 100px;
   }
   
   p {
@@ -16,7 +16,9 @@
   }
   
   a {
+    display: inline-block;
     color: #8468ff;
+    margin-bottom: 1rem;
   }
   
   a:hover {
@@ -29,8 +31,6 @@
     height: 200px;
     padding: 32px;
     color: var(--main-heading-color);
-    /* border-radius: var(--container-border-radius); */
-    /* border: 2px solid white; */
     border-radius: 20px 20px 10px 10px;
   }
   
@@ -46,14 +46,14 @@
   
   main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin: 1rem 0;
-    padding: 1rem;
+    padding: 1rem 0;
   }
   
   .card {
-    width: 380px;
+    width: 245px;
     border: 1px solid #FAF0E6;
   
     padding: 0.5rem;
@@ -65,24 +65,33 @@
   .card:hover {
     border: 1px solid hsla(0, 2%, 18%, 0.322);
     cursor: pointer;
+    transform: scale(1.1);
   }
   
   .heading {
     font-size: 1.5rem;
     font-weight: 700;
+    margin-top: 5px;
   }
   
   .desc {
     font-size: 0.85rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
   
   footer {
     text-align: center;
     font-weight: 700;
     width: 100%;
+    margin: 10px;
+    padding: 10px;
   }
   
+  .blue{
+    color: blue;
+    font-weight: 900;
+  }
+
   @media (max-width: 1024px) {
     body {
       padding: 0;
@@ -91,14 +100,13 @@
     main {
       margin: 0;
       padding: 0;
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
       justify-items: center;
     }
   
     .card {
       margin: 0;
-      width: 330px;
     }
   
   }

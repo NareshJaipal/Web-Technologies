@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ddd;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form{
+    width: fit-content;
+    margin: 10rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+label, button{
+    display: block;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+button{
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Select by attribute */
+[type]{
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* select by attribute's value */
+[type="email"]{
+    border: 1px solid #ff2121;
+}
+
+/* Select by attribute contains value */
+[title~="information"]{
+    border: 2px solid green;
+}
+
+/* Select by attribute value starts with */
+[href^="https"]{
+    display: inline-block;
+    color: green;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Select by attribute value ends with */
+[href$=".pdf"]{
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    border: 1px solid rgb(105, 13, 13);
+    padding: 5px;
+    margin: 5px;
+}
+

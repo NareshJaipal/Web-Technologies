@@ -1,156 +1,302 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-size: 100%;
-    font-family: 'Philosopher', sans-serif;
-  }
-  header {
-    padding: 5px;
-    background-color: red;
-  }
-  header marquee {
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-  }
-  nav {
-    display: flex;
-    align-items: center;
-    background-color: #1acc6a;
-  }
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-family: 'Philosopher', sans-serif;
+}
+
+body {
+  background-color: #57f3de;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+header {
+  padding: 5px 0px;
+  background-color: red;
+}
+
+header marquee {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s linear;
+}
+
+header marquee:hover {
+  color: #222;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #2de4cb;
+  height: 84px;
+}
+
+.nav-item {
+  padding: 10px 20px 10px 20px;
+  margin: 10px;        
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  background-color: #010e0c;
+  color: #fff;
+}
+
+.usms-logo {
+  height: 70px;
+  margin: 5px 30px 5px 30px;
+  transition: 0.2s ease-in-out;
+}
+
+.usms-logo:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-title {
+  margin-right: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.section-title{
+  font-size: 40px;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.section1 {
+  padding: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.section1::-webkit-scrollbar{
+  display: none;
+}
+
+.glass {
+  background: hsla(0, 0%, 100%, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  transition: 0.2s ease-in-out;
+}
+
+.glass:hover {
+  background: hsla(0, 0%, 100%, 0.7);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.card {
+  height: 260px;
+  width: 210px;
+  padding: 10px;
+  border-radius: 12px;
+  transition: all .2s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.15);
+  z-index: 99;
+}
+
+.book-img{
+  height: 220px;
+  width: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: 10px 15px;
+}
+
+.subject{
+  text-overflow: ellipsis;
+}
+
+.timeTableWrapper{
+  margin: 10px;
+  padding: 0px 20px;
+  height: 380px;
+  width: 92%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.timeTableWrapper::-webkit-scrollbar{
+  display: none;
+}
+
+.time-table {
+  width: 70rem;
+  margin: 10px auto;
+  border-radius: 15px;
+  border: 5px solid black;
+
+  background: hsla(0, 0%, 100%, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: 0.2s ease-in-out;
+}
+
+table tr{
+  transition: .3s ease-in-out;
+}
+
+table tr:hover {
+  border-radius: 20px;
+  background-color: #2de4cb;
+}
+
+table tr td{
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+table tr td:hover{
+  background-color: #37a395;
+}
+
+td{
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+}
+
+.ttHeading {
+  font-weight: bold;
+}
+
+.sub-link {
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.sub-link:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.sub-info {
+  margin: 0px 30px 15px 30px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.sub-name {
+  font-size: 30px;
+}
+
+.sub-description {
+  font-size: 18px;
+}
+
+.topic {
+  margin-top: 10px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.topic-desc {
+  font-weight: 100;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.sub-info-wrapper{
+  margin-left: 30px;
+}
+
+.sub-img{
+  height: 260px;
+  width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+footer {
+  padding: 20px;
+  background-color: #2de4cb;
+}
+
+footer p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (max-width:768px) {
   .nav-item {
-    padding: 10px 20px 10px 20px;
-    margin: 10px;        
+    padding: 10px 10px;
+    margin: 1px;        
     border-radius: 10px;
-    transition: 0.3s ease-in-out;
-  }
-  .nav-item:hover {
-    cursor: pointer;
-    background-color: #95ffc5;
-  }
-  .usms-logo {
-    height: 70px;
-    margin: 5px 30px 5px 30px;
-    transition: 0.2s ease-in-out;
-  }
-  .usms-logo:hover{
-    transform: scale(1.05);
-    cursor: pointer;
-  }
-  a{
-    text-decoration: none;
-    color: #000;
   }
 
-  .nav-title {
-    margin-right: 30px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  body {
-    background-color: #19d66e;
-  }
-  .section1 {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-  }
-  .card {
-    height: 260px;
-    width: 210px;
-    padding: 10px;
-    border-radius: 12px;
-  }
-  .glass {
-    background: hsla(0, 0%, 100%, 0.4);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border: 1px solid hsla(0, 0%, 100%, 0.2);
-    transition: 0.2s ease-in-out;
+  .time-table{
+    overflow-x: scroll;
   }
 
-  .glass:hover {
-    background: hsla(0, 0%, 100%, 0.7);
-    border: 1px solid #fff;
-  }
-  .book-img{
-    height: 220px;
-    width: 180px;
-    border-radius: 12px;
-    object-fit: cover;
-    margin: 10px 15px;
-  }
-  .subject{
-    text-overflow: ellipsis;
-  }
-  .section-title{
-    font-size: 40px;
-    color: white;
-    padding: 30px;
-  }
-  .time-table {
-    margin: 10px auto;
-    border-radius: 15px;
-    border: 5px solid black;
-  }
-  td{
-    height: 50px;
-    width: 150px;
-    text-align: center;
-    padding: 10px;
-  }
-  .ttHeading {
-    font-weight: bold;
-  }
-  .sub-link {
-    padding: 5px;
-    border-radius: 10px;
-    transition: 0.2s ease-in-out;
-  }
-  .sub-link:hover {
-    cursor: pointer;
-    background-color: #fff;
-  }
   .sub-info {
-    margin: 0px 30px 15px 30px;
-    padding: 15px 30px 15px 30px;
-    border-radius: 12px;
+    margin: 0px 5px 15px 10px;
+    padding: 10px 15px 10px 15px;
     display: flex;
     align-items: center;
   }
-  .sub-name {
-    font-size: 30px;
+}
+
+@media (max-width:600px) {
+  nav{
+    height: 65px;
+    padding-left: 20px;
   }
-  .sub-description {
-    font-size: 18px;
-  }
-  .topic {
-    margin-top: 10px;
-    font-weight: bold;
-    padding-left: 30px;
-  }
-  .topic-desc {
-    font-weight: 100;
-    padding-left: 15px;
-    margin-bottom: 10px;
-  }
-  .sub-info-wrapper{
-    margin-left: 30px;
-  }
-  .sub-img{
-    height: 260px;
-    width: 200px;
+
+  .nav-item {
+    padding: 10px 20px;
+    margin: 1px;        
     border-radius: 10px;
-    object-fit: cover;
   }
-  footer {
-    padding: 20px;
-    background-color: #1acc6a;
+
+  .usms-logo{
+    display: none;
   }
-  footer p {
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
+
+  .timeTableWrapper{
+    width: 85%;
   }
+
+  .sub-info {
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width:450px) {
+  .nav-item {
+    padding: 7px 12px;
+  }
+}

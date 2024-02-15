@@ -1,0 +1,62 @@
+body{
+    background-color: #ddd;
+    margin: 0px;
+    padding: 50px;
+    color: #111;
+}
+
+.box{
+    position: relative;
+    margin: 2px;
+    height: 200px;
+    width: 200px;
+    float: right;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.box::before{
+    position: absolute;
+    content: '';
+    padding: 10px;
+    color: #fff;
+    top: 20px;
+    left: -20px;
+    height: 180px;
+    width: 180px;
+    background-color: #8c1515;
+    border: 1px solid #000;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.box::after{
+    position: absolute;
+    content: 'Hello, I am Naresh';
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff; 
+    padding: 10px;
+    top: -20px;
+    left: 20px;
+    height: 180px;
+    width: 180px;
+    background-color: #ff3fdf;
+    border: 1px solid #000;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+a[href^='https']{
+    text-decoration: none;
+}
+
+a[href^='https']::after{
+    content: ' (secure)';
+    font-size: 12px;
+    font-weight: 400;
+    color: green;
+    
+}
+
