@@ -5,16 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Department|BSSE</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="../../../navbar/style.css" />
+    <link rel="stylesheet" href="../../../styles/navbar.style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700"
       rel="stylesheet"
     />
   </head>
   <body>
+    <!-- navbar -->
+    <nav>
+      <div class="logoWrapper">
+        <a href="/" class="logo">
+          <img
+            class="usms-logo"
+            src="../../../icons/usms_logo.png"
+            alt="USMS"
+          />
+          <h2 class="usms">
+            <span class="usms1">University Of Sufism</span>
+            <span class="usms2">And Modern Sciences</span>
+          </h2>
+        </a>
+        <button class="menu-icon-btn">
+          <img src="../../../icons/menu.svg" alt="menu btn" class="menu-icon" />
+        </button>
+      </div>
+      <ul class="menu-items" id="menu-items">
+        <li class="item">
+          <a class="item-link" href="/">Home</a>
+        </li>
+        <li class="item">
+          <a class="item-link" href="#"
+            >Department
+            <img
+              class="drop-down-icon"
+              src="../../../icons/drop_down.svg"
+              alt="drop_down"
+          /></a>
+          <ul class="department-dropdown">
+            <a class="item-link" href="../../../pages/departments/BSIT/"
+              >BS-IT</a
+            >
+            <a class="item-link" href="../../../pages/departments/BSCS/"
+              >BS-CS</a
+            >
+            <a class="item-link" href="../../../pages/departments/BSSE/"
+              >BS-SE</a
+            >
+            <a class="item-link" href="../../../pages/departments/BBA/">BBA</a>
+            <a class="item-link" href="../../../pages/departments/B.Ed/"
+              >B.Ed</a
+            >
+          </ul>
+        </li>
+        <li class="item">
+          <a class="item-link" href="#"
+            >TimeTable
+            <img
+              class="drop-down-icon"
+              src="../../../icons/drop_down.svg"
+              alt="drop_down"
+          /></a>
+          <div class="timetable-dropdown">
+            <a class="item-link" href="../../../pages/timetable/BSIT/">BS-IT</a>
+            <a class="item-link" href="../../../pages/timetable/BSCS/">BS-CS</a>
+            <a class="item-link" href="../../../pages/timetable/BSSE/">BS-SE</a>
+            <a class="item-link" href="../../../pages/timetable/BBA/">BBA</a>
+            <a class="item-link" href="../../../pages/timetable/B.Ed/">B.Ed</a>
+          </div>
+        </li>
+        <li class="item">
+          <a class="item-link" href="../../../pages/courses/">Courses</a>
+        </li>
+        <li class="item">
+          <a class="item-link" href="../../../pages/gallery/">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- todo  -->
     <div id="navbar"></div>
     <div class="container">
-      <h1 class="page-name">Department BSSE</h1>
+      <h1 class="page-name">Department Of BSSE</h1>
     </div>
   </body>
   <script src="./main.js"></script>
