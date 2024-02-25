@@ -1,0 +1,73 @@
+
+.timetable-wrapper {
+    overflow: hidden;
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timetable {
+    margin: 20px;
+    padding: 15px;
+    overflow-x: scroll;
+  
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .batch {
+    font-weight: bold;
+    margin-bottom: 12px; 
+    text-align: center; 
+  }
+  
+  .timetable table {
+    border-collapse: collapse;
+    width: 1200px;
+    margin-top: 10px; 
+  }
+  
+  
+  .timetable th, .timetable td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  
+  .timetable th {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  .timetable td {
+    height: 40px;
+    width: 200px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .timetable tr:hover{
+    background-color: #d4fff9;
+  }
+  
+  .timetable tr td:hover{
+    background-color: #83ffee;
+  }
+  
+  
+  
+  .timetable td:first-child {
+    width: 100px;
+  }
+  
+  .timetable tbody tr:nth-child(odd) { 
+    background-color: #aaa; 
+  }
+  

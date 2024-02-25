@@ -1,0 +1,150 @@
+[
+  {
+    "batch": "2K20-BBA",
+    "schedule": [
+      {
+        "time": "9:00 AM",
+        "monday": "Routing Concepts",
+        "tuesday": "Web Technologies",
+        "wednesday": "Routing Concepts",
+        "thursday": "System & Network Administration",
+        "friday": "Modeling & Simulation"
+      },
+      {
+        "time": "10:00 AM",
+        "monday": "System & Network Administration",
+        "tuesday": "Routing Concepts",
+        "wednesday": "Modeling & Simulation",
+        "thursday": "Software Engineering",
+        "friday": "-"
+      },
+      {
+        "time": "11:00 AM",
+        "monday": "Software Engineering",
+        "tuesday": "Web Technologies",
+        "wednesday": "Web Technologies",
+        "thursday": "System & Network Administration",
+        "friday": "Web Technologies"
+      },
+      {
+        "time": "12:00 PM",
+        "monday": "System & Network Administration",
+        "tuesday": "-",
+        "wednesday": "Routing Concepts",
+        "thursday": "-",
+        "friday": "-"
+      }
+    ]
+  },
+  {
+    "batch": "2K21-BBA",
+    "schedule": [
+      {
+        "time": "9:00 AM",
+        "monday": "Routing Concepts",
+        "tuesday": "Web Technologies",
+        "wednesday": "Routing Concepts",
+        "thursday": "System & Network Administration",
+        "friday": "Modeling & Simulation"
+      },
+      {
+        "time": "10:00 AM",
+        "monday": "System & Network Administration",
+        "tuesday": "Routing Concepts",
+        "wednesday": "Modeling & Simulation",
+        "thursday": "Software Engineering",
+        "friday": "-"
+      },
+      {
+        "time": "11:00 AM",
+        "monday": "Software Engineering",
+        "tuesday": "Web Technologies",
+        "wednesday": "Web Technologies",
+        "thursday": "System & Network Administration",
+        "friday": "Web Technologies"
+      },
+      {
+        "time": "12:00 PM",
+        "monday": "System & Network Administration",
+        "tuesday": "-",
+        "wednesday": "Routing Concepts",
+        "thursday": "-",
+        "friday": "-"
+      }
+    ]
+  },
+  {
+    "batch": "2K22-BBA",
+    "schedule": [
+      {
+        "time": "9:00 AM",
+        "monday": "Routing Concepts",
+        "tuesday": "Web Technologies",
+        "wednesday": "Routing Concepts",
+        "thursday": "System & Network Administration",
+        "friday": "Modeling & Simulation"
+      },
+      {
+        "time": "10:00 AM",
+        "monday": "System & Network Administration",
+        "tuesday": "Routing Concepts",
+        "wednesday": "Modeling & Simulation",
+        "thursday": "Software Engineering",
+        "friday": "-"
+      },
+      {
+        "time": "11:00 AM",
+        "monday": "Software Engineering",
+        "tuesday": "Web Technologies",
+        "wednesday": "Web Technologies",
+        "thursday": "System & Network Administration",
+        "friday": "Web Technologies"
+      },
+      {
+        "time": "12:00 PM",
+        "monday": "System & Network Administration",
+        "tuesday": "-",
+        "wednesday": "Routing Concepts",
+        "thursday": "-",
+        "friday": "-"
+      }
+    ]
+  },
+  {
+    "batch": "2K23-BBA",
+    "schedule": [
+      {
+        "time": "9:00 AM",
+        "monday": "Routing Concepts",
+        "tuesday": "Web Technologies",
+        "wednesday": "Routing Concepts",
+        "thursday": "System & Network Administration",
+        "friday": "Modeling & Simulation"
+      },
+      {
+        "time": "10:00 AM",
+        "monday": "System & Network Administration",
+        "tuesday": "Routing Concepts",
+        "wednesday": "Modeling & Simulation",
+        "thursday": "Software Engineering",
+        "friday": "-"
+      },
+      {
+        "time": "11:00 AM",
+        "monday": "Software Engineering",
+        "tuesday": "Web Technologies",
+        "wednesday": "Web Technologies",
+        "thursday": "System & Network Administration",
+        "friday": "Web Technologies"
+      },
+      {
+        "time": "12:00 PM",
+        "monday": "System & Network Administration",
+        "tuesday": "-",
+        "wednesday": "Routing Concepts",
+        "thursday": "-",
+        "friday": "-"
+      }
+    ]
+  }
+]

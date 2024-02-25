@@ -5,18 +5,10 @@
 }
 
 a{
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  padding-top: 90px;
 }
-
-.page-name{
-    font-size: 80px;
-}
-

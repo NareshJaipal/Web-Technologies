@@ -10,13 +10,7 @@ a{
 }
 
 .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    padding-top: 80px;
 }
 
-.page-name{
-    font-size: 80px;
-}
 

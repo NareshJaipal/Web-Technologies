@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TimeTable|BBA</title>
+    <title>TimeTable|BSIT</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../../styles/footer.style.css" />
     <link rel="stylesheet" href="../../../styles/navbar.style.css" />
+    <link rel="stylesheet" href="../../../styles/timetable.style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
@@ -83,11 +89,28 @@
       </ul>
     </nav>
 
-    <!-- todo  -->
-    <div id="navbar"></div>
     <div class="container">
-      <h1 class="page-name">TimeTable Of BBA</h1>
+      <div class="timetable-wrapper">
+        <div class="table-wrapper">
+          <table></table>
+        </div>
+      </div>
     </div>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p class="copyright-text">Copyright &copy; 2024 University Of Sufism</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-facebook-f"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-telegram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="./main.js"></script>
+  <script src="../../../scripts/navbar.script.js"></script>
 </html>

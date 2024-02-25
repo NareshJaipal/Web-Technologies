@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif; 
 }
 
+body{
+    height: 100vh;
+}
+
 a{
     text-decoration: none;
     cursor: pointer;
@@ -16,7 +20,108 @@ a{
     height: 100vh;
 }
 
-.page-name{
-    font-size: 80px;
+.banner{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    top: 80px;
 }
 
+.banner-image{
+    position: absolute;
+    left: 0px;
+    /* top: 0px; */
+    bottom: 0px;
+    right: 0px;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    background-color: #f00;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.banner-image.activeBannerImage{
+    opacity: 1;
+    animation: .5s slideEffect;
+}
+
+@keyframes slideEffect {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.previous-btn, .next-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 5px solid #000;
+    border-radius: 50%;
+
+    padding: 10px;
+    cursor: pointer;
+
+    z-index: 10;
+}
+
+.previous-btn{
+    left: 3%;
+}
+
+.next-btn{
+    right: 3%;
+}
+
+.banner-cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000077;
+}
+
+.banner-about{
+    position: absolute;
+    left: 15%;
+    bottom: 20%;
+    width: 70%;
+    color: #fff;
+}
+
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.uni-name1{
+    font-variant: small-caps;
+    display: block;
+    color: #3e51f3;
+    font-weight: bolder;
+    font-size: 51px;
+}
+
+.uni-name2{
+    margin-top: -15px;
+    font-variant: small-caps;
+    display: block;
+    color: #f00;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.card-wrapper{
+    margin-top: 80px;
+}
