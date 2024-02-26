@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Department|B.Ed</title>
+    <title>BSSE</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../../styles/footer.style.css" />
     <link rel="stylesheet" href="../../../styles/navbar.style.css" />
+    <link rel="stylesheet" href="../../../styles/timetable.style.css" />
+    <link rel="stylesheet" href="../../../styles/depart.style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
@@ -83,11 +90,91 @@
       </ul>
     </nav>
 
-    <!-- todo  -->
-    <div id="navbar"></div>
-    <div class="container">
-      <h1 class="page-name">Department Of B.Ed</h1>
+    <h1 class="department-name">Department Of B.Ed</h1>
+
+    <div class="depart-container">
+      <ul class="depart-sidebar">
+        <li class="sidebar-item" id="overview">
+          <i class="fa fa-bar-chart"></i>
+          <div class="depart-icon-name">Overview</div>
+        </li>
+        <li class="sidebar-item" id="outcomes">
+          <i class="fa fa-graduation-cap"></i>
+          <div class="depart-icon-name">Outcomes</div>
+        </li>
+        <li class="sidebar-item" id="jobs">
+          <i class="fa fa-briefcase"></i>
+          <div class="depart-icon-name">Jobs</div>
+        </li>
+        <li class="sidebar-item" id="questions">
+          <i class="fa fa-comments"></i>
+          <div class="depart-icon-name">Questions</div>
+        </li>
+      </ul>
+
+      <div class="depart-intro">
+        <div class="deaprt-intro-content active" id="overview-intro">
+          <h1>Overview</h1>
+          The Bachelor of Education (B.Ed) degree program prepares students to
+          become qualified educators. The program emphasizes educational theory,
+          child development, curriculum design, classroom management, and
+          assessment.
+        </div>
+        <div class="deaprt-intro-content" id="outcomes-intro">
+          <h1>Outcomes</h1>
+          Graduates of the Bachelor of Education program will be able to:
+          <ul>
+            <li>
+              Demonstrate a deep understanding of child development and learning
+              theories.
+            </li>
+            <li>
+              Design effective lesson plans and instructional strategies for
+              diverse learners.
+            </li>
+            <li>Create a positive and supportive classroom environment.</li>
+            <li>
+              Utilize various assessment methods to measure student learning and
+              guide instruction.
+            </li>
+          </ul>
+        </div>
+        <div class="deaprt-intro-content" id="jobs-intro">
+          <h1>Jobs</h1>
+          The B.Ed degree prepares graduates for teaching roles in various
+          settings, including early childhood, elementary, and secondary
+          education. Explore potential career paths in education:
+          <ul>
+            <li>Early Childhood Educator</li>
+            <li>Elementary School Teacher</li>
+            <li>Middle School Teacher</li>
+            <li>High School Teacher</li>
+            <li>Special Education Teacher</li>
+          </ul>
+        </div>
+
+        <div class="deaprt-intro-content" id="questions-intro">
+          <h1>Questions</h1>
+          <h2>NOPE</h2>
+        </div>
+      </div>
     </div>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p class="copyright-text">Copyright &copy; 2024 University Of Sufism</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-facebook-f"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-telegram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+    <script src="../../../scripts/navbar.script.js"></script>
+    <script src="../../../scripts/depart.script.js"></script>
   </body>
-  <script src="./main.js"></script>
 </html>

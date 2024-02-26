@@ -8,15 +8,3 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
-
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.page-name{
-    font-size: 80px;
-}
-

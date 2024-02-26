@@ -126,3 +126,53 @@ a{
 .card-wrapper{
     margin-top: 80px;
 }
+
+@media (max-width:768px) {
+    .banner{
+        height: 70vh;
+    }
+
+    .previous-btn, .next-btn {
+        border: 3px solid #000;
+        padding: 7px;
+    }
+
+    .banner-title{
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .uni-name1{
+        font-size: 43px;
+    }
+
+    .uni-name2{
+        margin-top: -12px;
+        font-size: 42px;
+    }
+}
+
+@media (max-width:450px) {
+    .banner{
+        height: 60vh;
+    }
+
+    .previous-btn, .next-btn {
+        border: 3px solid #000;
+        padding: 5px;
+    }
+
+    .banner-title{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .uni-name1{
+        font-size: 35px;
+    }
+
+    .uni-name2{
+        margin-top: -12px;
+        font-size: 34px;
+    }
+}
