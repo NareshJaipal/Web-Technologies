@@ -32,7 +32,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 230px;
+    width: 235px;
     transition: .3s ease-in-out;
 }
 
