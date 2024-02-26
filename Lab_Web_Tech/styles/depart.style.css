@@ -1,3 +1,11 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+
 .department-name{
     padding-top: 100px;
     color: #00346b;
@@ -80,7 +88,7 @@
 
 .sidebar-item div:hover{
     color: #fff;
-    font-weight: 800;
+    font-weight: 600;
 } 
 
 .depart-intro{

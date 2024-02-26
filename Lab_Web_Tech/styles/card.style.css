@@ -1,3 +1,11 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+
 .card-container{
     display: flex;
     align-items: flex-start;
@@ -27,13 +35,13 @@
 }
 
 .card-img:hover{
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .card-title{
     color: #222;
     margin-top: 10px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .card-desc{
@@ -66,11 +74,10 @@
 
 .read-more-btn:hover{
     color: #fff;
-    font-weight: 800;
+    font-weight: 700;
     background-color: #222;
     border: 2px solid #222;
 }
-
 
 @media (max-width: 768px) {
     .card-container{

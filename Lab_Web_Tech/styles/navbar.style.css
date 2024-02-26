@@ -1,13 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif; 
+    font-family: "Poppins", sans-serif;
 }
 
-a{
-    text-decoration: none;
-    cursor: pointer;
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
 }
+
 
 nav{
     position: fixed;
@@ -25,15 +23,16 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 235px;
+    width: 245px;
 }
 
 .logo{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 235px;
+    width: 240px;
     transition: .3s ease-in-out;
+    white-space: nowrap;
 }
 
 .logo:hover{
@@ -110,7 +109,7 @@ nav{
 
 .item-link:hover {
     color: #000;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .drop-down-icon{
@@ -185,9 +184,8 @@ nav{
 
     .active{
         overflow: visible;
-        height: 260px;
+        height: 300px;
         display: block;
-        /* background-color: #ccc; */
         animation: 1s menuSizeActive ease-in-out;
     }
 
@@ -228,3 +226,8 @@ nav{
     }
 }
 
+@media (max-width: 400px) {
+    .logoWrapper{
+        width: 95%;
+    }
+}
