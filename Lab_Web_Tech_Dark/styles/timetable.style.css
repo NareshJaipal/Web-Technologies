@@ -1,0 +1,83 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.timetable-wrapper {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.timetable {
+  margin: 20px;
+  padding: 15px;
+  overflow-x: scroll;
+
+  border: 1px solid var(--btn-secondary);
+  background-color: var(--card-primary);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timetable::-webkit-scrollbar {
+  background-color: #111;
+  height: 3px;
+}
+
+.batch {
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.timetable table {
+  border-collapse: collapse;
+  width: 1200px;
+  margin-top: 10px;
+}
+
+.timetable th,
+.timetable td {
+  text-align: center;
+  padding: 8px;
+}
+
+.timetable th {
+  color: var(--text-primary);
+  padding: 10px;
+  font-weight: 400;
+}
+
+.timetable td {
+  color: var(--text-highlight);
+  height: 40px;
+  width: 200px;
+
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.timetable tr:nth-child(even) {
+  background-color: var(--bg-primary);
+}
+
+.timetable tr:nth-child(odd) {
+  box-shadow: 0px 2px 6px var(--bg-primary);
+}
+
+.timetable td:first-child {
+  width: 100px;
+}

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--bg-primary);
+}
+
+.container {
+  padding-top: 90px;
+}
