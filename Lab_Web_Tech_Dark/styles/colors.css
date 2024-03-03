@@ -8,8 +8,8 @@
   --btn-secondary: #09090a;
 
   /* Text */
-  --text-primary: #8b8a91;
+  --text-primary: rgba(255, 255, 255, 0.8);
   --text-secondary: #79787f;
-  --text-info: #4f4f52;
+  --text-info: rgba(255, 255, 255, 0.7);
   --text-highlight: #fff;
 }
